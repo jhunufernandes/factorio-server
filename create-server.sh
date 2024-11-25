@@ -1,3 +1,4 @@
 #!/bin/bash
 
-exec factorio/bin/x64/factorio --create-server savename
+savename=$1
+exec factorio/bin/x64/factorio --create "./saves/$savename"
